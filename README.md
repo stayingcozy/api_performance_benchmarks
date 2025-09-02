@@ -17,3 +17,13 @@ Inspired from [TheOptimizationKing](https://medium.com/@optimzationking2) on med
     - Axum + sqlx + redis-rs
 - **C++**
     - Oat++ + oatpp-postgresql + hiredis
+
+
+# TODO
+- [ ] Add benchmark framework (docker, timing/memory/energy) (great example: [kostya/benchmarks](https://github.com/kostya/benchmarks))
+- [ ] Customize Node.js implementation
+- [ ] Customize Go implementation
+- [ ] Customize Rust implementation
+- [ ] Create Python Server
+- [ ] Create Java Server
+- [ ] Create C++ Server
