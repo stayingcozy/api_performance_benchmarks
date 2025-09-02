@@ -2,6 +2,8 @@ const express = require('express');
 const { Pool } = require('pg');
 const Redis = require('ioredis');
 const axios = require('axios');
+const dotenv = require('dotenv').config();
+
 const app = express();
 app.use(express.json());
 const pool = new Pool({ connectionString: process.env.POSTGRES_DSN });
