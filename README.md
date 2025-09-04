@@ -21,15 +21,16 @@ Inspired from [TheOptimizationKing](https://medium.com/@optimzationking2) on med
 
 # Architecture
 ```
-coding_lang/
+api_performance_benchmarks/
 ├── requestor/
-│   └── notify (timing) + for loop with post
-├── server/
-│   └── server rest, sql, redis
-└── docker/
-    ├── docker-compose.yml
-    ├── Dockerfile.requestor
-    └── Dockerfile.server
+│   ├── notify + for loop with post logic
+│   └── Dockerfile
+└── coding_lang/
+    ├── server/
+    │   └── rest, sql, redis logic
+    └── docker/
+        ├── docker-compose.yml
+        └── Dockerfile
 ```
 
 
