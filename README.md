@@ -20,6 +20,7 @@ Inspired from [TheOptimizationKing](https://medium.com/@optimzationking2) on med
 
 
 # Architecture
+```
 coding_lang/
 ├── requestor/
 │   └── notify (timing) + for loop with post
@@ -29,6 +30,7 @@ coding_lang/
     ├── docker-compose.yml
     ├── Dockerfile.requestor
     └── Dockerfile.server
+```
 
 
 # TODO
