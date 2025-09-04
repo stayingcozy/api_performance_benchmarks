@@ -19,6 +19,18 @@ Inspired from [TheOptimizationKing](https://medium.com/@optimzationking2) on med
     - Oat++ + oatpp-postgresql + hiredis
 
 
+# Architecture
+coding_lang/
+├── requestor/
+│   └── notify (timing) + for loop with post
+├── server/
+│   └── server rest, sql, redis
+└── docker/
+    ├── docker-compose.yml
+    ├── Dockerfile.requestor
+    └── Dockerfile.server
+
+
 # TODO
 - [ ] Add benchmark framework (docker, timing/memory/energy) (great example: [kostya/benchmarks](https://github.com/kostya/benchmarks))
 - [ ] Customize Node.js implementation
